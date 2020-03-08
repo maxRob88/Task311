@@ -5,7 +5,7 @@ public class CalculatorModel {
     private int firstArg;
     private int secondArg;
 
-    StringBuilder inputStr = new StringBuilder();
+    private StringBuilder inputStr = new StringBuilder();
     private int actionSelected;
 
     private State state;
